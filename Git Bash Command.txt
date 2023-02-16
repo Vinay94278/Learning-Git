@@ -72,6 +72,11 @@
 	give the option how we can push and pull repo code
 30. $ git push -u origin master
 	push the content to repo
+31. git config --gobal alias.st status
+	it is used to create shortcut of any command like here status -> st now only git st
+	for more easy to use lets take an ex of unstage
+	git config --global alias.unstage 'restore --staged --'
+	after this only write git unstage filename
 
 
 
