@@ -24,3 +24,43 @@
 	it is used to convert the current folder into git 
 12. touch error.log
 	it is genrate error.log file in out current folder
+13. touch .gitignore
+	it genrates 1 file called gitignore and if we put any file name into .gitignore than that file do not track by 	git 
+	->for that just put that file name into .gitignore file using notepad
+	->if there is more than one file which have same extention and you want to ignore it than just write 	*.fileextention . Now this as a result igonre all files with this extention
+	->we can also ignore whole folder in git by just putting foldername/ into .gitignore file
+	->for example there is an empty folder than it doesnot show into the status
+	->foldername/ it ignore all direct and nested folder who have this name
+	->and if you want to untrack only direct folder then use /foldername/ as a result of this nested folder with 	this name showing as untreck in git status
+14. git diff
+	->it is used to compare the stagging file and modified files
+	for ex we add some files into stagging area using git add --a now we again modify it then it shows files two 	times in stagging area as well as in modified area as well
+	->now if we use git diff command then it shows difference between stagging area file and modified file
+	-> here if we add then both files update and show as a updated file in stagging area and if we commit first then 	modified file is  stay in modified stage and those file who is in stagging area they are now commited
+15. git diff --staged
+	it is used to check difference between last commit and current stagging area
+16. git -a -m "comment"
+	it is used to skip staging area
+	but it does not consider modified file
+17. git rm filename
+	it is used to remove file from folder and this command automatically stagged this process
+18. git mv filename fname
+	this command is used to change the name of the file and also add this modification in stagged process 	automatically
+19. git rm --cached filename
+	it is used to untrack the file manually
+20. git log -p
+	it is used to show all old history with what is modified in this
+21. git log -p -3
+	it shows last three commit with difference
+22. git log --pretty=oneline
+	it shows last commits with it difference in oneline
+23. git log --since=2.days
+	last two days commit
+24. git restore --staged filename
+	it is used to unstaged current file
+25. git checkout -- filename
+	it is used to match current file with last commit
+26. git checkout -f
+	it is used to match all current file with last commit
+
+	
