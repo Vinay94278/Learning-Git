@@ -77,7 +77,12 @@
 	for more easy to use lets take an ex of unstage
 	git config --global alias.unstage 'restore --staged --'
 	after this only write git unstage filename
-
-
-
-	
+32. git checkout -b devlop
+	create branch name devlop and get into it
+33. git checkout branchname 
+	it is used to to go into that branch
+	for ex git checkout master
+34. git branch
+	it is used to show all the branch
+35. git merge devlop
+	it is used to merge the branch
