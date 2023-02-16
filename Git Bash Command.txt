@@ -22,3 +22,5 @@
 	it is used to comment on last commit or snap
 11. git init
 	it is used to convert the current folder into git 
+12. touch error.log
+	it is genrate error.log file in out current folder
