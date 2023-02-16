@@ -62,5 +62,17 @@
 	it is used to match current file with last commit
 26. git checkout -f
 	it is used to match all current file with last commit
+27. git remote add linkname(ex origin) repo_link
+	it is used to add shortcut to access link
+	for ex 
+	$ git remote add origin https://github.com/Vinay94278/Learning-Git.git
+28. git remote
+	it will give us name of link like origin
+29. git remote -v
+	give the option how we can push and pull repo code
+30. $ git push -u origin master
+	push the content to repo
+
+
 
 	
