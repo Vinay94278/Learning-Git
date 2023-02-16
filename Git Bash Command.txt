@@ -1,0 +1,24 @@
+1. Git Status
+	it is used to check current dir have any changes or not
+2. Git log 
+	 it is used to check update(commit)(snap) history of git folder
+3. Git add filename
+	it is used to update or click the snap for any particular file
+4. Git add --a
+	it is used to click snap of all file
+5. rm -rf .git
+	it is used to remove git access to the folder
+	it delete all the track records of that folder
+6. Git clone link_of_git_repositry
+	it is used to copy all files from the git repositry to current folder
+	(for e.x. we can download full sowftware track history from git using git repositry)
+7. pwd 
+	to check present working direcotry
+8. ls
+	for listing out the all the files of the folder
+9. cd foldername
+	use to open that folder from list
+10. git commit -m "comment"
+	it is used to comment on last commit or snap
+11. git init
+	it is used to convert the current folder into git 
