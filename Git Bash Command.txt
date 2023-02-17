@@ -86,3 +86,7 @@
 	it is used to show all the branch
 35. git merge devlop
 	it is used to merge the branch
+36. git push origin branch_name
+	it is used to push the branch to repo
+37. git push -d origin branch_name
+	it is used to delete branch from repo
